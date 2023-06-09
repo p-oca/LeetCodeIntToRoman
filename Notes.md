@@ -1,40 +1,23 @@
 # Notes
 ## Operators in Python
-+-------------------+------------------------------------------+-------------------------------------------------------+
-|   Operator        |             Example                        |                     Description                       |
-+-------------------+------------------------------------------+-------------------------------------------------------+
-|    =              |   x = 5                                  |   Assigns the value on the right to the variable on   |
-|                   |                                          |   the left.                                          |
-|    +=             |   x += 3                                 |   Adds the value on the right to the variable on the  |
-|                   |                                          |   left and assigns the result to the variable.        |
-|    -=             |   x -= 3                                 |   Subtracts the value on the right from the variable  |
-|                   |                                          |   on the left and assigns the result to the variable. |
-|    *=             |   x *= 3                                 |   Multiplies the variable on the left by the value    |
-|                   |                                          |   on the right and assigns the result to the variable.|
-|    /=             |   x /= 3                                 |   Divides the variable on the left by the value on    |
-|                   |                                          |   the right and assigns the result to the variable.   |
-|    //=            |   x //= 3                                |   Performs floor division on the variable on the left |
-|                   |                                          |   by the value on the right and assigns the result.   |
-|    %=             |   x %= 3                                 |   Computes the modulus of the variable on the left    |
-|                   |                                          |   with the value on the right and assigns the result. |
-|    **=            |   x **= 3                                |   Raises the variable on the left to the power of the |
-|                   |                                          |   value on the right and assigns the result.          |
-|    &=             |   x &= 3                                 |   Performs a bitwise AND operation on the variable    |
-|                   |                                          |   on the left with the value on the right and assigns |
-|                   |                                          |   the result.                                        |
-|    |=             |   x |= 3                                 |   Performs a bitwise OR operation on the variable on  |
-|                   |                                          |   the left with the value on the right and assigns    |
-|                   |                                          |   the result.                                        |
-|    ^=             |   x ^= 3                                 |   Performs a bitwise XOR operation on the variable on |
-|                   |                                          |   the left with the value on the right and assigns    |
-|                   |                                          |   the result.                                        |
-|    >>=            |   x >>= 3                                |   Performs a right shift operation on the variable on |
-|                   |                                          |   the left by the value on the right and assigns the  |
-|                   |                                          |   result.                                            |
-|    <<=            |   x <<= 3                                |   Performs a left shift operation on the variable on  |
-|                   |                                          |   the left by the value on the right and assigns the  |
-|                   |                                          |   result.                                            |
-+-------------------+------------------------------------------+-------------------------------------------------------+
+Table taken from [TutorialsPoint](https://www.tutorialspoint.com/python/assignment_operators_example.htm).
+| Operator | Example | Description |
+|----------|---------|-------------|
+| =        | x = 5   | Assigns the value on the right to the variable on the left. |
+| +=       | x += 3  | Adds the value on the right to the variable on the left and assigns the result to the variable. |
+| -=       | x -= 3  | Subtracts the value on the right from the variable on the left and assigns the result to the variable. |
+| *=       | x *= 3  | Multiplies the variable on the left by the value on the right and assigns the result to the variable. |
+| /=       | x /= 3  | Divides the variable on the left by the value on the right and assigns the result to the variable. |
+| //=      | x //= 3 | Performs floor division on the variable on the left by the value on the right and assigns the result. |
+| %=       | x %= 3  | Computes the modulus of the variable on the left with the value on the right and assigns the result. |
+| **=      | x **= 3 | Raises the variable on the left to the power of the value on the right and assigns the result. |
+| &=       | x &= 3  | Performs a bitwise AND operation on the variable on the left with the value on the right and assigns the result. |
+| \|=      | x \|= 3 | Performs a bitwise OR operation on the variable on the left with the value on the right and assigns the result. |
+| ^=       | x ^= 3  | Performs a bitwise XOR operation on the variable on the left with the value on the right and assigns the result. |
+| >>=      | x >>= 3 | Performs a right shift operation on the variable on the left by the value on the right and assigns the result. |
+| <<=      | x <<= 3 | Performs a left shift operation on the variable on the left by the value on the right and assigns the result. |
+
+
 ## Pseudocode
 ```
 FUNCTION intToRoman(num):
